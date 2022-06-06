@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Krona+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,34 @@
     transform: rotate(360deg);
   }
 }
+
+.navBarFull {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-left {
+  display: flex;
+  align-items: right;
+  /* margin-right: 5%; */
+}
+
+.btn-right {
+  display: flex;
+  align-items: left;
+  /* margin-right: 5%; */
+}
+
+.btnHead {
+  padding: 5px 10px;
+  margin-right: 5%;
+  background: none;
+  border: none;
+  font-family: 'Krona One', sans-serif;
+}
+
+.logoHeader {
+  margin: 2%;
+  /* margin-left: 4%; */
+}
+
